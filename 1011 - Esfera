@@ -1,0 +1,11 @@
+# Atribuindo o valor de pi
+pi = 3.14159
+
+# Lendo o valor do raio da entrada
+raio = float(input())
+
+# Calculando o volume da esfera
+volume = (4/3) * pi * raio**3
+
+# Imprimindo o resultado com 3 casas decimais
+print("VOLUME =", format(volume, '.3f'))
