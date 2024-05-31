@@ -1,0 +1,22 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Leitura dos valores dos pontos
+        string[] valoresPonto1 = Console.ReadLine().Split(' ');
+        double x1 = double.Parse(valoresPonto1[0]);
+        double y1 = double.Parse(valoresPonto1[1]);
+
+        string[] valoresPonto2 = Console.ReadLine().Split(' ');
+        double x2 = double.Parse(valoresPonto2[0]);
+        double y2 = double.Parse(valoresPonto2[1]);
+
+        // Calculo da distância
+        double distancia = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
+
+        // Exibição da distância com 4 casas decimais
+        Console.WriteLine(distancia.ToString("F4"));
+    }
+}
