@@ -1,0 +1,9 @@
+# Taking input from user
+A = int(input())
+B = int(input())
+
+# Adding the numbers
+X = A + B
+
+# Printing the result
+print("X =", X)
