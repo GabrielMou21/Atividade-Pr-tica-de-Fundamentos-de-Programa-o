@@ -1,0 +1,9 @@
+# Lendo as duas notas do aluno
+nota1 = float(input())
+nota2 = float(input())
+
+# Calculando a média ponderada
+media = (nota1 * 3.5 + nota2 * 7.5) / 11
+
+# Imprimindo o resultado formatado
+print("MEDIA =", format(media, '.5f'))
