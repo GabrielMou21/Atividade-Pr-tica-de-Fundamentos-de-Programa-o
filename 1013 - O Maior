@@ -1,0 +1,7 @@
+nu1, nu2, nu3 = input().split()
+a = int(nu1)
+b = int(nu2)
+c = int(nu3)
+maiorAB = (a + b + abs(a - b)) / 2
+resultado = (maiorAB + c + abs(maiorAB - c)) / 2
+print(f'{resultado:.0f} eh o maior')
