@@ -1,0 +1,16 @@
+using System;
+
+class Program {
+    static void Main(string[] args) {
+        // Lendo os valores de entrada
+        int A, B;
+        A = Convert.ToInt32(Console.ReadLine());
+        B = Convert.ToInt32(Console.ReadLine());
+        
+        // Calculando a soma
+        int SOMA = A + B;
+        
+        // Imprimindo o resultado
+        Console.WriteLine("SOMA = " + SOMA);
+    }
+}
