@@ -1,0 +1,16 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Leitura da distância em quilômetros
+        int distancia = int.Parse(Console.ReadLine());
+
+        // Calculo do tempo necessário em minutos
+        int tempo = distancia * 2;
+
+        // Exibição do tempo necessário
+        Console.WriteLine(tempo + " minutos");
+    }
+}
